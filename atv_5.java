@@ -20,7 +20,6 @@ public class atv_5 {
 
         while (popA < popB) {
 
-            // Aplica crescimento anual
             popA = popA * (1 + taxaA / 100.0);
             popB = popB * (1 + TAXA_B / 100.0);
             anos++;
@@ -30,7 +29,6 @@ public class atv_5 {
             System.out.printf("Ano %d    A: %,.0f hab.  |  B: %,.0f hab.  |  Diff: %,.0f%n",
                     anos, popA, popB, diferenca);
 
-            // Alerta: cidades se aproximando
             if (diferenca < 10_000 || anos % 5 == 0) {
                 System.out.println("   Atenção: Cidades se aproximando em tamanho!");
             }
