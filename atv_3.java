@@ -26,9 +26,9 @@ public class atv_3 {
             double[] notas = {nota1, nota2, nota3};
             java.util.Arrays.sort(notas);
 
-            double menor = notas[0];   // peso 2
-            double meio = notas[1];   // peso 3
-            double maior = notas[2];   // peso 5
+            double menor = notas[0];
+            double meio = notas[1];
+            double maior = notas[2];
 
             double media = (maior * 5 + meio * 3 + menor * 2) / (5 + 3 + 2);
 
